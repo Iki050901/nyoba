@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter API Integration',
+      title: 'Flutter API INtegration',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
