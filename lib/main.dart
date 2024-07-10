@@ -14,8 +14,17 @@ class MyApp extends StatelessWidget {
       title: 'Flutter API Integration',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: 'Roboto', 
+        appBarTheme: AppBarTheme(
+          color: Colors.blue, 
+          centerTitle: true, 
+        ),
       ),
-    
+      home: HomeScreen(), 
+      routes: {
+        '/add_user': (context) => AddUserScreen(), 
+      },
     );
   }
 }
+
